@@ -1,0 +1,107 @@
+header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+header .logo img{
+width: 70px;
+}
+header h1{
+    font-size: 45px;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    top:20px;
+}
+
+
+
+main section input{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 500px;
+    border:none;
+    background-color:#6696fe58;
+}
+
+main section input:focus{
+    outline: none;
+}
+
+main section div p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+main section img{
+    width: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    
+}
+
+main section img:hover {
+    background-color: #df95b4; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]:checked +label>image{
+
+    transform: scale(1.3);
+    
+}
+
+main section .Emoji{
+    display: flex;
+    gap: 15px;
+    
+}
+
+main section .section {
+    display: flex;
+    align-items: flex-end;
+    width: 500px;
+    justify-content: space-between;
+}
+
+main section .section button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: var(--sec-color);
+    border: none;
+    border-radius: 30px;
+}
+
+main > img{
+    position: fixed;
+    bottom: -20px;
+    left: -15px;
+}
+
+main section:nth-of-type(2) {
+    border: 2px solid var(--sec-color);
+    padding: 30px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+
+main section:nth-of-type(2) div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
